@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 1.32rem;
+    line-height: 1.6;
+    margin-inline: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: auto;
+    background-color: rgb(231, 231, 231);
+}
+
+header {
+    background-color: #222f3f;
+    
+}
+
+header nav {
+    background-color: #364759;
+}
+
+header img {
+    display: block;
+    text-align: left;
+    width: 10%;
+    padding: 1rem;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+main .bg-img {
+    color: white;
+    text-align: center;
+    background-image: url(../images/bg-image.png);
+    margin-inline: 2rem;
+    padding: 5rem;
+    margin-top: 2rem;
+}
+
+main .firstblock{
+    color: white;
+    background-color: rgb(225, 86, 0);
+    text-align: center;
+    padding: 2px;
+    margin-inline: 2rem;
+    margin-top: 2rem;
+}
+
+main section {
+    margin-top: 5rem;
+    background-color: white;
+    margin-inline: 2rem;
+}
+
+section div p {
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    
+}
+
+section div img {
+    display: inline-block;
+    
+    box-shadow: 4px 5px 20px gray;
+    border-radius: 2rem;
+}
+
+
+.content-center img {
+    display: block;
+    text-align: center;
+    width: 94%;
+    margin-inline: 3rem;
+    margin-top: 3rem;
+}
+
+.content-center p {
+    text-align: center;
+    text-decoration: none;
+}
+
+.content-bottom p {
+    text-align: center;
+}
+.content-bottom img {
+    display: block;
+    text-align: center;
+    width: 94%;
+    margin-inline: 3rem;
+    margin-top: 3rem;
+}
+
+aside {
+    text-align: center;
+    margin-top: 4rem;
+    background-color: #364759;
+    padding: 1rem;
+}
+
+aside a {
+    color: white;
+}
+
+footer {
+    background-color: #222f3f;
+    text-align: center;
+    padding: 6rem;
+}
+
+footer img {
+    width: 15%;
+}
